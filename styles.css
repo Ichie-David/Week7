@@ -322,6 +322,7 @@ a {
     grid-template-rows: auto auto;
     gap: 1.7rem;
     margin-top: 2rem;
+    position: relative;
 }
 
 .bottom-grid small {
@@ -329,20 +330,173 @@ a {
 
 }
 
-.img0 div {
-    margin-bottom: 1.2rem;
+.img0 div{
+    margin-bottom: 4rem;
+}
+
+.img0 small {
+    position: absolute;
+    top: 18rem;
 }
 
 .img0 h2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
     font-family: "Oswald", sans-serif;
     font-size: 1.3rem;
     font-weight: 500;
 }
+
 .img0 p {
+    margin-top: 0.5rem;
+}
+
+.imgs1 small {
+    position: absolute;
+    top: 0.3rem;
+    left: 36rem;
+}
+
+.imgs1 h2 {
+    font-family: "Oswald", sans-serif;
     font-size: 1rem;
-    font-family: "Sofia Sans", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 1.5rem;
+    left: 36rem;
+}
+
+.imgs2 small {
+    position: absolute;
+    top: 5rem;
+    left: 36rem;
+}
+
+.imgs2 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 6rem;
+    left: 36rem;
+}
+
+.imgs3 small {
+    position: absolute;
+    top: 9.5rem;
+    left: 36rem;
+}
+
+.imgs3 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 10.5rem;
+    left: 36rem;
+}
+
+.imgs4 small {
+    position: absolute;
+    top: 14.3rem;
+    left: 36rem;
+}
+
+.imgs4 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 15.5rem;
+    left: 36rem;
+}
+
+.imgs5 small {
+    position: absolute;
+    top: 19rem;
+    left: 36rem;
+}
+
+.imgs5 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 20rem;
+    left: 36rem;
+}
+
+.imgs6 small {
+    position: absolute;
+    top: 0.3rem;
+    right: 1.5rem;
+}
+
+.imgs6 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+}
+
+.imgs7 small {
+    position: absolute;
+    top: 5rem;
+    right: 1.5rem;
+}
+
+.imgs7 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 6.2rem;
+    right: 0.8rem;
+}
+
+.imgs8 small {
+    position: absolute;
+    top: 10rem;
+    right: 1.5rem;
+}
+
+.imgs8 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 11rem;
+    right: 1.2rem;
+}
+
+.imgs9 small {
+    position: absolute;
+    top: 14.5rem;
+    right: 1.6rem;
+}
+
+.imgs9 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 15.5rem;
+    right: -0.5rem;
+}
+
+.imgs10 small {
+    position: absolute;
+    top: 19rem;
+    right: 1.6rem;
+}
+
+.imgs10 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 20.2rem;
+    right: 0.9rem;
 }
 
 footer {
