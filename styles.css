@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -9,6 +13,7 @@
 
 .nav-1{
     display: flex;
+    justify-content: space-between;
     align-items: top;
     padding-top: 1rem;
     padding-bottom: 1.3rem;
@@ -27,8 +32,6 @@ a {
 
 .nav-2 {
     background-color: #393939;
-    /* width: 83%; */
-
 }
 
 .nav-2 div {
@@ -46,7 +49,7 @@ a {
     border: none;
     background-color: #F65050;
     margin-left: 0;
-    padding: 3%;
+    padding: 2%;
 }
 
 
@@ -55,14 +58,18 @@ a {
     align-items: center;
     border-left: 0.5px solid #6b6b6b;
     display: flex;
-    padding-bottom: 2%;
-    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
 
 }
 
 #search {
     border: none;
     background-color: #393939;
+}
+
+.material-icons {
+    margin-right: 3rem;
 }
 
 .caron {
@@ -96,17 +103,23 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative; /* for all */
+    position: relative;
 }
 
 .div-1 p {
     position: absolute;
     top: 30rem;
+    left: 1rem;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 0.8rem;
 }
 
 .div-1 h2 {
     position: absolute;
-    top: 35rem;
+    top: 32rem;
+    left: 1rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
 }
 
 .div-1 button {
@@ -117,6 +130,8 @@ a {
     top: 3rem;
     left: 3rem;
     border: none;
+    font-size: 0.8rem;
+    font-family: "Sofia Sans", sans-serif;
 }
 .div-2 {
     background-image: url('./assets/Image2.png');
@@ -129,11 +144,17 @@ a {
 .div-2 h3 {
     position: absolute;
     top: 15rem;
+    left: 1rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 0.8rem;
 }
 
 .div-2 p {
     position: absolute;
     top: 13rem;
+    left: 1rem;
+    font-family: "Sofia", cursive;
+    font-size: 0.7rem;
 }
 
 .div-2 button {
@@ -144,6 +165,7 @@ a {
     top: 2rem;
     left: 2rem;
     border: none;
+    font-size: 0.8rem;
 }
 
 .div-3 {
@@ -157,11 +179,17 @@ a {
 .div-3 p {
     position: absolute;
     top: 13rem;
+    left: 1rem;
+    font-family: "Sofia", cursive;
+    font-size: 0.7rem;
 }
 
 .div-3 h3 {
     position: absolute;
-    top: 14rem;
+    top: 15rem;
+    left: 1rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 0.8rem;
 }
 
 .div-3 button {
@@ -169,9 +197,10 @@ a {
     padding: 1rem;
     color: #FFFFFF;
     position: absolute;
-    top: 3rem;
-    left: 3rem;
+    top: 2rem;
+    left: 1.5rem;
     border: none;
+    font-size: 0.8rem;
 }
 
 .div-4 {
@@ -179,11 +208,112 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
 }
 
+.div-4 h2 {
+    position: absolute;
+    top: 13rem;
+    left: 1rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+}
+
+.div-4 p {
+    position: absolute;
+    top: 11.5rem;
+    left: 1rem;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 0.8rem;
+}
+
+.div-4 button {
+    background-color: #997C00;
+    padding: 1rem;
+    color: #FFFFFF;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    border: none;
+    font-size: 0.8rem;
+    font-family: "Sofia Sans", sans-serif;
+}
+
+.heads {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
 .header-2 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid black;
+    font-family: "Oswald", sans-serif;
+}
+
+.miss {
+    margin-right: 13rem;
+    color: #F65050;
+    border-bottom: 1px solid #F65050;
+    font-size: 1.5rem;
+}
+
+
+.buttons button {
+    font-size: 0.7rem;
+    padding: 0.7rem;
+    border: none;
+    color: #FFFFFF;
+}
+
+.one {
+    background-color: #FE4A51;
+}
+
+.two {
+    background-color: #A56CBD;
+}
+
+.three {
+    background-color: #2ECC71;
+}
+
+.four {
+    background-color: #0088FF;
+}
+
+.five {
+    background-color: #997C00;
+}
+
+.six {
+    background-color: #49CFE8;
+}
+
+.seven {
+    background-color: #0088FF;
+}
+
+.eight {
+    background-color: #4C60F5;
+    font-size: 1rem;
+}
+
+
+.header-3{
+    display: flex;
+    gap: 3rem;
+    border-bottom: 1px solid black;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+.recent {
+    color: #F65050;
+    border-bottom: 1px solid #F65050;
 }
 
 /* .header-3 {
