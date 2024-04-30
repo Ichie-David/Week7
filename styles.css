@@ -577,6 +577,7 @@ footer p {
 
     .hamburger {
         display: block;
+        cursor: pointer;
     }
 
     .nav-1 {
