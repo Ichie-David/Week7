@@ -576,7 +576,10 @@ footer p {
     }
 
     .hamburger {
-        display: block;
+        display: grid;
+        position: absolute;
+        top: 2.3rem;
+        right: 5rem;
         cursor: pointer;
     }
 
@@ -898,4 +901,41 @@ footer p {
         display: flex;
         justify-content: space-between;
     }
+
+    .nav-2.visible {
+        display: flex;
+    }
+
+    .nav-2 {
+        background-color: #FFFFFF;
+
+    }
+
+    .nav-2 div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-2 div p {
+        padding: 1rem;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    .caron {
+        display: none;
+    }
+    
+    .home {
+        width: 600%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
 }
